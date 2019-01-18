@@ -4,7 +4,7 @@
 main(){
     local CLUSTER,ZONE
     CLUSTER="rocinante"
-    ZONE="us-east1-a"
+    ZONE="us-west1-a"
     gcloud container clusters create "$CLUSTER" --zone "$ZONE"
 }
 
